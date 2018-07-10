@@ -14,6 +14,8 @@
 		B2E25C8120F49A1700C15262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E25C7F20F49A1700C15262 /* LaunchScreen.storyboard */; };
 		B2E25C8C20F49A1700C15262 /* DreamListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E25C8B20F49A1700C15262 /* DreamListTests.swift */; };
 		B2E25C9720F49A1700C15262 /* DreamListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E25C9620F49A1700C15262 /* DreamListUITests.swift */; };
+		B2FA15AB20F4A2AD001F6073 /* DreamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15AA20F4A2AD001F6073 /* DreamList.swift */; };
+		B2FA15AD20F4A3B8001F6073 /* DreamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B2E25C9220F49A1700C15262 /* DreamListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E25C9620F49A1700C15262 /* DreamListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListUITests.swift; sourceTree = "<group>"; };
 		B2E25C9820F49A1700C15262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FA15AA20F4A2AD001F6073 /* DreamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamList.swift; sourceTree = "<group>"; };
+		B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B2E25C7D20F49A1700C15262 /* Assets.xcassets */,
 				B2E25C7F20F49A1700C15262 /* LaunchScreen.storyboard */,
 				B2E25C8220F49A1700C15262 /* Info.plist */,
+				B2FA15AA20F4A2AD001F6073 /* DreamList.swift */,
+				B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */,
 			);
 			path = DreamList;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FA15AB20F4A2AD001F6073 /* DreamList.swift in Sources */,
 				B2E25C7920F49A1500C15262 /* ViewController.swift in Sources */,
 				B2E25C7720F49A1500C15262 /* AppDelegate.swift in Sources */,
+				B2FA15AD20F4A3B8001F6073 /* DreamListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
