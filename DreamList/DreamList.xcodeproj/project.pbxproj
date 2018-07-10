@@ -16,6 +16,8 @@
 		B2E25C9720F49A1700C15262 /* DreamListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E25C9620F49A1700C15262 /* DreamListUITests.swift */; };
 		B2FA15AB20F4A2AD001F6073 /* DreamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15AA20F4A2AD001F6073 /* DreamList.swift */; };
 		B2FA15AD20F4A3B8001F6073 /* DreamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */; };
+		B2FA15AF20F4AF95001F6073 /* DreamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15AE20F4AF95001F6073 /* DreamListViewController.swift */; };
+		B2FA15B120F4BA28001F6073 /* ManageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15B020F4BA28001F6073 /* ManageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B2E25C9820F49A1700C15262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FA15AA20F4A2AD001F6073 /* DreamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamList.swift; sourceTree = "<group>"; };
 		B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListTableViewCell.swift; sourceTree = "<group>"; };
+		B2FA15AE20F4AF95001F6073 /* DreamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListViewController.swift; sourceTree = "<group>"; };
+		B2FA15B020F4BA28001F6073 /* ManageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				B2E25C8220F49A1700C15262 /* Info.plist */,
 				B2FA15AA20F4A2AD001F6073 /* DreamList.swift */,
 				B2FA15AC20F4A3B8001F6073 /* DreamListTableViewCell.swift */,
+				B2FA15AE20F4AF95001F6073 /* DreamListViewController.swift */,
+				B2FA15B020F4BA28001F6073 /* ManageData.swift */,
 			);
 			path = DreamList;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FA15B120F4BA28001F6073 /* ManageData.swift in Sources */,
 				B2FA15AB20F4A2AD001F6073 /* DreamList.swift in Sources */,
 				B2E25C7920F49A1500C15262 /* ViewController.swift in Sources */,
+				B2FA15AF20F4AF95001F6073 /* DreamListViewController.swift in Sources */,
 				B2E25C7720F49A1500C15262 /* AppDelegate.swift in Sources */,
 				B2FA15AD20F4A3B8001F6073 /* DreamListTableViewCell.swift in Sources */,
 			);
