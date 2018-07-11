@@ -12,7 +12,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Learn-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DreamList" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,7 +108,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aYF-id-BRH"/>
+                    <navigationItem key="navigationItem" title="Learn" id="aYF-id-BRH"/>
                     <connections>
                         <outlet property="tableView" destination="mie-Bw-ZhA" id="Sam-X7-2sl"/>
                     </connections>
@@ -155,25 +155,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature" translatesAutoresizingMaskIntoConstraints="NO" id="kwx-UW-dU1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kwx-UW-dU1">
                                 <rect key="frame" x="67" y="230" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="iCz-Mx-Bl8"/>
                                     <constraint firstAttribute="width" constant="240" id="psg-s8-uhf"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9U-vK-kOM">
-                                <rect key="frame" x="163" y="490" width="49" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="2Ti-Xd-jj5"/>
-                                    <constraint firstAttribute="height" constant="36" id="EZF-Ee-xyW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="SAVE"/>
-                                <connections>
-                                    <action selector="saveClick:" destination="42N-GX-8ov" eventType="touchUpInside" id="5KS-Wu-wsy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGK-EM-BSw">
                                 <rect key="frame" x="67" y="230" width="240" height="240"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -188,11 +176,9 @@
                             <constraint firstItem="3Vb-aG-cC5" firstAttribute="top" secondItem="bjQ-iL-VlN" secondAttribute="top" id="2Br-rs-DLx"/>
                             <constraint firstItem="gGK-EM-BSw" firstAttribute="centerX" secondItem="kwx-UW-dU1" secondAttribute="centerX" id="5XI-b0-a7h"/>
                             <constraint firstItem="3Vb-aG-cC5" firstAttribute="trailing" secondItem="bjQ-iL-VlN" secondAttribute="trailing" id="5gW-3F-lgy"/>
-                            <constraint firstItem="l9U-vK-kOM" firstAttribute="top" secondItem="kwx-UW-dU1" secondAttribute="bottom" constant="20" id="BCA-ly-CFr"/>
                             <constraint firstItem="kwx-UW-dU1" firstAttribute="centerX" secondItem="krh-yu-PAB" secondAttribute="centerX" id="HlV-PV-xUR"/>
                             <constraint firstItem="gGK-EM-BSw" firstAttribute="centerY" secondItem="kwx-UW-dU1" secondAttribute="centerY" id="O7d-dw-Fzo"/>
                             <constraint firstItem="TXi-uZ-t8c" firstAttribute="top" secondItem="3Vb-aG-cC5" secondAttribute="bottom" constant="8" id="RHp-X4-zVU"/>
-                            <constraint firstItem="l9U-vK-kOM" firstAttribute="centerX" secondItem="krh-yu-PAB" secondAttribute="centerX" id="RxC-xd-CuT"/>
                             <constraint firstItem="gGK-EM-BSw" firstAttribute="height" secondItem="kwx-UW-dU1" secondAttribute="height" id="bpH-Uo-Ei7"/>
                             <constraint firstItem="TXi-uZ-t8c" firstAttribute="leading" secondItem="bjQ-iL-VlN" secondAttribute="leading" id="fJ8-02-y4i"/>
                             <constraint firstItem="bjQ-iL-VlN" firstAttribute="trailing" secondItem="TXi-uZ-t8c" secondAttribute="trailing" id="gf0-hF-EuR"/>
@@ -233,6 +219,5 @@
     <resources>
         <image name="icon" width="256" height="256"/>
         <image name="learn" width="629" height="297"/>
-        <image name="nature" width="1280" height="720"/>
     </resources>
 </document>

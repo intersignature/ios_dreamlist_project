@@ -27,9 +27,8 @@ class DreamListViewController: UIViewController, UITextViewDelegate, UIImagePick
             dreamListImg.image = pickImage
         }
     }
-
     
-    @IBAction func saveClick(_ sender: UIButton) {
+    @objc func saveAct() {
         if let strDetail = detailTv.text, let img = dreamListImg.image {
             let imgName = ManageData.instance.saveImageToFile(image: img)
             let dreamList = DreamList(detail: strDetail, imageName: imgName)
@@ -44,6 +43,9 @@ class DreamListViewController: UIViewController, UITextViewDelegate, UIImagePick
         super.viewDidLoad()
         imagePicker = UIImagePickerController()
         // Do any additional setup after loading the view.
+        
+        let cam_button = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveAct))
+        self.navigationItem.rightBarButtonItem = cam_button
         
         self.detailTv.delegate = self
         imagePicker.delegate = self
